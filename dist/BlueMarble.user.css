@@ -316,10 +316,9 @@ div:has(>#bm-2)>button {
   letter-spacing: 0.1em;
 }
 
+/* REGRA CORRIGIDA: Removido 'display: flex' e 'align-items' */
 .bm-image-carousel {
   position: relative;
-  display: flex;
-  align-items: center;
   width: 100%;
   overflow: hidden;
 }
@@ -348,6 +347,8 @@ div:has(>#bm-2)>button {
   object-fit: contain;
   border-radius: 4px;
   background-color: #0000004d;
+  flex-shrink: 0; /* Impede que a imagem encolha */
+  margin-right: 1ch;
 }
 
 .bm-image-item p {
@@ -358,8 +359,8 @@ div:has(>#bm-2)>button {
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
-    max-width: 60%;
-    text-align: right;
+    text-align: left;
+    flex-grow: 1; /* Permite que o texto ocupe o espaço restante */
 }
 
 .bm-carousel-nav {
