@@ -111,7 +111,7 @@ div#bm-l {
   transition: background-color 0.2s;
 }
 
-#bm-last-coords .bm-p {
+.bm-coords {
   border: white 1px solid;
   height: 1.5em;
   width: 3em;
