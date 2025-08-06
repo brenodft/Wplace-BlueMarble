@@ -378,7 +378,11 @@ div:has(>#bm-2)>button {
 .bm-prev {
   left: 0;
 }
-
+#bm-last-images { margin-top: .5em; }
+#bm-last-images .bm-image-item { display: flex; align-items: center; margin-bottom: .5ch; padding: 0 .5ch; background-color: #0003; border-radius: .5em; }
+#bm-last-images .bm-image-item img { margin-right: .5ch; }
+#bm-last-images .bm-image-delete { width: 2em; height: 2em; line-height: 1.5em; text-align: center; background-color: #ff4444; border: none; border-radius: .5em; cursor: pointer; }
+#bm-last-images .bm-image-delete:hover { background-color: #cc0000; }
 .bm-next {
   right: 0;
 }
