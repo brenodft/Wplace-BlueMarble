@@ -101,6 +101,19 @@ div#bm-l {
 .bm-p {
   border: white 1px solid;
   height: 1.5em;
+  width: 1.5em;
+  margin-top: 2px;
+  text-align: center;
+  line-height: 1.5em;
+  padding: 0 !important;
+  background-color: #1e3a8a;
+  border-radius: 4px;
+  transition: background-color 0.2s;
+}
+
+#bm-last-coords .bm-p {
+  border: white 1px solid;
+  height: 1.5em;
   width: 3em;
   margin-top: 2px;
   text-align: center;
