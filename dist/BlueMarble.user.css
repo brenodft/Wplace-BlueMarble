@@ -15,7 +15,7 @@
   -webkit-transform-style: preserve-3d;
 }
 
-#bm-4, #bm-l hr, #bm-3, #bm-1 {
+#bm-4, #bm-l hr, #bm-3, #bm-1, #bm-last-coords, #bm-last-images {
   transition: opacity .2s ease, height .2s ease;
 }
 
@@ -229,7 +229,7 @@ div:has(>#bm-2)>button {
   color: #d3d3d3;
 }
 
-#bm-4, #bm-3, #bm-8, #bm-0, div:has(>#bm-2), #bm-a {
+#bm-4, #bm-3electrodes, #bm-8, #bm-0, div:has(>#bm-2), #bm-a, #bm-last-coords, #bm-last-images {
   margin-top: 0.5em;
 }
 
@@ -300,4 +300,85 @@ div:has(>#bm-2)>button {
 #bm-last-coords .bm-coord-item button:focus-visible {
   transform: translateY(-1px);
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* NEW: Carousel styles */
+#bm-last-images {
+  margin-top: 0.5em;
+}
+
+#bm-last-images-title h3 {
+  font-size: 1em;
+  margin: 0 0 0.5ch 0;
+  color: #e0e0e0;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.bm-image-carousel {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  overflow: hidden;
+}
+
+.bm-image-track {
+  display: flex;
+  transition: transform 0.3s ease;
+}
+
+.bm-image-item {
+  flex: 0 0 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.75ch 1ch;
+  background-color: #1e3a8a;
+  border-radius: 6px;
+  border: 1px solid #ffffff1a;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.bm-image-item img {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+  border-radius: 4px;
+}
+
+.bm-carousel-nav {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #144eb9;
+  border: 1px solid white;
+  border-radius: 50%;
+  width: 1.5em;
+  height: 1.5em;
+  line-height: 1.5em;
+  text-align: center;
+  font-size: 0.85em;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.bm-carousel-nav:hover,
+.bm-carousel-nav:focus-visible {
+  background-color: #1061e5;
+  transform: translateY(-1px);
+}
+
+.bm-carousel-nav:disabled {
+  background-color: #2e97ff;
+  cursor: not-allowed;
+}
+
+.bm-prev {
+  left: 0;
+}
+
+.bm-next {
+  right: 0;
 }
