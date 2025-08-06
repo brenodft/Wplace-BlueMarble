@@ -251,7 +251,6 @@ div:has(>#bm-2)>button {
   text-decoration: line-through;
 }
 
-/* --- ESTILOS DAS SEÇÕES DE ITENS SALVOS --- */
 
 #bm-last-coords, #bm-last-images {
   margin-top: 0.5em;
@@ -266,11 +265,10 @@ div:has(>#bm-2)>button {
   letter-spacing: 0.1em;
 }
 
-/* --- SEÇÃO DE COORDENADAS (REFEITA PARA CARROSSEL) --- */
 
 .bm-coord-item {
-  flex: 0 0 100%; /* Faz o item ocupar 100% da largura do trilho */
-  box-sizing: border-box; /* Garante que o padding não afete a largura */
+  flex: 0 0 100%; 
+  box-sizing: border-box; 
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -293,7 +291,7 @@ div:has(>#bm-2)>button {
 }
 
 .bm-coord-item .bm-coords {
-    margin-top: 0; /* Remove a margem que não é mais necessária */
+    margin-top: 0; 
 }
 
 .bm-coord-item button:hover,
@@ -303,7 +301,6 @@ div:has(>#bm-2)>button {
 }
 
 
-/* --- SEÇÃO DE IMAGENS --- */
 
 .bm-image-item {
   flex: 0 0 100%;
@@ -339,7 +336,6 @@ div:has(>#bm-2)>button {
     flex-grow: 1;
 }
 
-/* --- ESTILOS GERAIS DO CARROSSEL (PARA AMBAS AS SEÇÕES) --- */
 
 .bm-image-carousel, .bm-coord-carousel {
   position: relative;
