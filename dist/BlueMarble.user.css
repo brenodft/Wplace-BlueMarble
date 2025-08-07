@@ -1,6 +1,6 @@
 #bm-l {
 position: fixed;
-background-color: #002b5e; /* Azul escuro Persona 3 Reload /
+background-color: #002b5e; 
 color: #d1e8ff; / Branco azulado gelo /
 padding: 10px;
 border-radius: 8px;
@@ -60,12 +60,12 @@ display: inline-block;
 font-size: x-large;
 font-weight: 700;
 vertical-align: middle;
-color: #e0f7ff; /* Azul muito claro gelo */
+color: #e0f7ff;
 text-shadow: 1px 1px 3px #000;
 }
 
 .bm-p {
-border: 1px solid #4ab6ff; /* Azul claro gelo /
+border: 1px solid #4ab6ff; 
 height: 1.5em;
 width: 1.5em;
 text-align: center;
@@ -78,8 +78,7 @@ color: #d1e8ff; / Branco azulado gelo */
 }
 
 .bm-coords {
-border: 1px solid #4ab6ff; /* Azul claro gelo /
-height: 1.5em;
+border: 1px solid #4ab6ff; 
 width: 3em;
 text-align: center;
 line-height: 1.5em;
@@ -91,16 +90,16 @@ color: #d1e8ff; / Branco azulado gelo */
 }
 
 .bm-p:hover, .bm-p:focus-visible, .bm-coords:hover, .bm-coords:focus-visible {
-background-color: #4ab6ff; /* Azul claro gelo /
-border-color: #b2ebf2; / Ciano claro gelo */
+background-color: #4ab6ff; 
+border-color: #b2ebf2; 
 }
 
 .bm-delete {
-background-color: #b71c1c; /* Vermelho escuro */
+background-color: #b71c1c; 
 }
 
 .bm-delete:hover, .bm-delete:focus-visible {
-background-color: #d32f2f; /* Vermelho */
+background-color: #d32f2f; 
 }
 
 #bm-c {
@@ -110,7 +109,7 @@ vertical-align: middle;
 #bm-8 input,
 #bm-l input,
 #bm-l textarea {
-background-color: #001233; /* Azul ainda mais escuro /
+background-color: #001233; 
 padding: 0 0.5ch;
 font-size: small;
 border-radius: 4px;
@@ -132,12 +131,12 @@ width: 100%;
 
 #bm-a {
 font-size: small;
-background-color: #001233; /* Azul ainda mais escuro /
+background-color: #001233; 
 padding: 0 0.5ch;
 height: 3.75em;
 width: 100%;
-border: 1px solid #4ab6ff; / Azul claro gelo /
-color: #d1e8ff; / Branco azulado gelo */
+border: 1px solid #4ab6ff;
+color: #d1e8ff; 
 border-radius: 4px;
 }
 
@@ -148,7 +147,7 @@ justify-content: space-between;
 
 #bm-l small {
 font-size: x-small;
-color: #b2ebf2; /* Ciano claro gelo */
+color: #b2ebf2; 
 }
 
 #bm-4, #bm-3electrodes, #bm-8, #bm-0, div:has(>#bm-2), #bm-a, #bm-last-coords, #bm-last-images {
@@ -156,29 +155,29 @@ margin-top: 0.5em;
 }
 
 #bm-l button {
-background-color: #001f4c; /* Azul escuro Persona 3 Reload /
+background-color: #001f4c;
 border-radius: 1em;
 padding: 0 0.75ch;
-border: 1px solid #4ab6ff; / Azul claro gelo /
-color: #d1e8ff; / Branco azulado gelo */
+border: 1px solid #4ab6ff;
+color: #d1e8ff; 
 transition: background-color 0.2s;
 }
 
 #bm-l button:hover, #bm-l button:focus-visible {
-background-color: #4ab6ff; /* Azul claro gelo /
-border-color: #b2ebf2; / Ciano claro gelo */
+background-color: #4ab6ff;
+border-color: #b2ebf2; 
 }
 
 #bm-l hr {
 border: none;
 height: 1px;
-background-color: #4ab6ff; /* Azul claro gelo */
+background-color: #4ab6ff; 
 }
 
 #bm-last-coords-title h3, #bm-last-images-title h3 {
 font-size: 1em;
 margin: 0 0 0.5ch 0;
-color: #b2ebf2; /* Ciano claro gelo */
+color: #b2ebf2; 
 font-weight: 500;
 text-transform: uppercase;
 letter-spacing: 0.1em;
@@ -190,15 +189,15 @@ justify-content: space-between;
 align-items: center;
 margin-bottom: 0.5ch;
 padding: 0.75ch 1ch;
-background-color: #001f4c; /* Azul escuro Persona 3 Reload /
+background-color: #001f4c; 
 border-radius: 6px;
-border: 1px solid #4ab6ff; / Azul claro gelo */
+border: 1px solid #4ab6ff; 
 }
 
 .bm-coord-item p, .bm-image-item p {
 font-size: 0.9em;
 margin: 0;
-color: #d1e8ff; /* Branco azulado gelo */
+color: #d1e8ff; 
 font-family: 'Roboto Mono', monospace;
 white-space: nowrap;
 overflow: hidden;
